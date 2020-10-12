@@ -1,0 +1,7 @@
+{
+  "name": "HuntClone",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
