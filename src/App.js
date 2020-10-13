@@ -7,7 +7,12 @@ import Home from './pages/Home';
 import Trending from './pages/Trending';
 import Search from './pages/Search';
 import Submit from './pages/Submit';
+
 import Profile from './pages/Profile';
+import EditProfile from './pages/EditProfile'
+import Login from './pages/Login'
+import SignUp from './pages/Signup'
+import Forgot from './pages/Forgot'
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -40,6 +45,10 @@ const App = () => {
             <Route path="/search" component={Search} exact={true} />
             <Route path="/profile" component={Profile} exact={true} />
             <Route path="/submit" component={Submit} exact={true} />
+            <Route path="/login" component={Login} exact={true} />
+            <Route path="/edit-profile" component={EditProfile} exact={true} />
+            <Route path="/register" component={SignUp} exact={true} />
+            <Route path="/forgot" component={Forgot} exact={true} />
             <Route component={() => <Redirect to="/home" />} />
           </IonRouterOutlet>
           <IonTabBar slot="bottom">
