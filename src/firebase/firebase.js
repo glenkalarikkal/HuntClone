@@ -32,5 +32,5 @@ class Firebase {
     }
 }
 
-const firebase = Firebase();
+const firebase = new Firebase();
 export default firebase;
